@@ -19,6 +19,6 @@ setup(
     version='1.0.0',
     description='Shaktimaan App made in HackDUnhackd 2k18',
     long_description=long_description,
-    url='https://github.com/IBM-Bluemix/python-hello-world-flask',
+    url='https://github.com/kdpisda/Shaltimaan-server.git',
     license='Apache-2.0'
 )
