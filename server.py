@@ -48,7 +48,7 @@ def get_job():
     my_url = 'https://www.naukri.com/'
     my_url = my_url + str(skill)+'-jobs-in-' + str(city)
     result = requests.get(my_url, headers=headers)
-    page_soup = soup(result.content.decode(),"html.parser")
+    page_soup = soup(result.content.decode('utf-8'),"html.parser")
     containers = page_soup.findAll("div",{"itemtype":"http://schema.org/JobPosting"})
     jobs = []
     for container in containers:
